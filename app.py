@@ -44,3 +44,6 @@ def gm(stock,period, interval):
     # Create a JSON representation of the graph
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     return graphJSON
+
+if __name__ == '__main__':
+    app.run()
