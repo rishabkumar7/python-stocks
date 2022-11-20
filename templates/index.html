@@ -46,8 +46,8 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col text-light bg-dark" style="margin:20px 0px 20px 0px">
-        <h1 style="padding:20px 0px 20px 0px">Stock movements demonstrator</h1>
+      <div class="col text-light " style="margin:20px 0px 20px 0px;background-color: #111111;">
+        <h1 style="padding:20px 0px 20px 0px">Tech Stock Graphs</h1>
       </div>
     </div>
     <div class="row">
@@ -56,8 +56,11 @@
         <select id="stock" class="form-select" aria-label="Select" )>
           <option selected value="MSFT">Microsoft</option>
           <option value="FB">Facebook</option>
-          <option value=AAPL>Apple</option>
+          <option value="AAPL">Apple</option>
           <option value="GOOGL">Google</option>
+          <option value="TSLA">Tesla</option>
+          <option value="AMZN">Amazon</option>
+          <option value="NVDA">Nvidia</option>
         </select>
       </div>
       <div class="col"><b>for period</b></div>
@@ -72,18 +75,12 @@
           <option value="1y">1 year</option>
           <option value="2y">2 years</option>
           <option value="5y">5 years</option>
-          <option value="10y">10 years</option>
-          <option value="ytd">Year to date</option>
-          <option value="max">Max</option>
         </select>
       </div>
       <div class="col"><b>Interval</b></div>
 
       <div class="col">
         <select id="interval" class="form-select" aria-label="Select" )>
-          <option selected value="1m">1 minute</option>
-          <option value="2m">2 minutes</option>
-          <option value="5m">5 minutes</option>
           <option value="15m">15 minutes</option>
           <option value="30m">30 minutes</option>
           <option value="60m">60 minutes</option>
@@ -97,7 +94,8 @@
         </select>
       </div>
       <div class="col">
-        <button type="button" class="btn btn-primary" onclick="callback()">Fetch stock</button>
+        <button type="button" class="btn btn-primary" style="background-color: #3A4086;" onclick="callback()">Fetch
+          stock</button>
       </div>
       <div class="w-100" style="padding:10px;text-align:right;font-size: small;"><i>Note: not all intervals are
           valid for all periods</i></div>
@@ -115,9 +113,9 @@
         </div>
       </div>
       <div class="col-12" style="font-size:smaller;padding:10px;text-align: right;">
-        <i>The data is, to the best of our knowledge, correct but cannot be guarenteed to be so</i>
+        <i>The data is, to the best of our knowledge, correct but cannot be guaranteed to be so</i>
         <br />
-        <i>This site is for educational and demonstation purposes, only</i>
+        <i>This site is for educational and demonstration purposes, only</i>
       </div>
     </div>
   </div>

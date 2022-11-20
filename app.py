@@ -39,7 +39,7 @@ def gm(stock,period, interval):
     min = min - margin
     fig = px.area(df, x='Date-Time', y="Open",
         hover_data=("Open","Close","Volume"), 
-        range_y=(min,max), template="seaborn" )
+        range_y=(min,max), template="plotly_dark" )
 
     # Create a JSON representation of the graph
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
