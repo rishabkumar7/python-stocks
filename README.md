@@ -14,3 +14,6 @@ Top Tech Stocks graphs
 - Microsoft [Azure Account](https://portal.azure.com/)
 
 ## Local Setup
+
+
+Inspired by https://projectcodeed.blogspot.com/2021/07/how-to-build-stock-tracker-with-plotly.html
