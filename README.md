@@ -7,3 +7,10 @@ Top Tech Stocks graphs
 
 - Python Flask
 - Azure Web App
+
+## Requirements:
+
+- Python version >= 3.8
+- Microsoft [Azure Account](https://portal.azure.com/)
+
+## Local Setup
