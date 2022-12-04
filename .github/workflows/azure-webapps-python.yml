@@ -1,8 +1,13 @@
 name: Build and deploy Python app to Azure Web App
 
 env:
+<<<<<<< HEAD
   AZURE_WEBAPP_NAME: python-stocks   # set this to your application's name
   PYTHON_VERSION: '3.8'               # set this to the Python version to use
+=======
+  AZURE_WEBAPP_NAME: python-stocks-77  # set this to the name of your Azure Web App
+  PYTHON_VERSION: '3.8'              # set this to the Python version to use
+>>>>>>> 04edae42d6b616222353e5a30e9aeed855bd31dd
 
 on:
   push:
