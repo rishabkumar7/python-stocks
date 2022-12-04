@@ -1,4 +1,4 @@
-name: Build and deploy Python app to Azure Web App
+name: Build and deploy Python to Azure Web App
 
 env:
   AZURE_WEBAPP_NAME: python-stocks   # set this to your application's name
